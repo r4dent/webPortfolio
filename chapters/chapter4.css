@@ -1,0 +1,34 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #F15A24;
+  }
+  
+  .content {
+    margin-left: 220px;
+  }
+  
+  .red-text {
+    color: #F15A24;
+  }
+  
+  .box {
+    background-color: #F15A24;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .custom-font {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  .custom-list {
+    list-style-type: circle;
+  }
+  

@@ -1,0 +1,104 @@
+/* Inline-blocks and Align */
+.inline-blocks {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 0 10px;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+/* Overflow */
+.overflow {
+	height: 100px;
+	overflow: auto;
+}
+
+/* Opacity */
+.opacity {
+	opacity: 0.5;
+}
+
+/* Attribute Selectors */
+.fruit[data-type="apple"] {
+	color: red;
+}
+
+.fruit[data-type="banana"] {
+	color: yellow;
+}
+
+.fruit[data-type="orange"] {
+	color: orange;
+}
+
+.fruit[data-type="kiwi"] {
+	color: green;
+}
+
+.vegetable[data-type="carrot"] {
+	color: orange;
+}
+
+.vegetable[data-type="broccoli"] {
+	color: green;
+}
+
+.vegetable[data-type="cucumber"] {
+	color: lightgreen;
+}
+
+.vegetable[data-type="spinach"] {
+	color: darkgreen;
+}
+
+/* Forms */
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	display: inline-block;
+}
+
+/* Counters */
+.counter {
+	counter-reset: paragraph;
+}
+
+.counter p::before {
+	counter-increment: paragraph;
+	content: "Paragraph " counter(paragraph) ". ";
+} 
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
